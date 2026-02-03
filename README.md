@@ -139,7 +139,10 @@ Token expiration support
 
 Example:
 
-http://localhost:3000/api/auth/verify-email/<token>
+http://localhost:7002/web/userauth/register
+http://localhost:7002/web/userauth/verify-email/<token>
+http://localhost:7002/web/userauth/login
+http://localhost:7002/web/userauth/forget-password
 
  Future Enhancements
 
